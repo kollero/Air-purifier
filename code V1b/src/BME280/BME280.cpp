@@ -1,4 +1,31 @@
-
+/*!
+ * @file Adafruit_BME280.cpp
+ *
+ * @mainpage Adafruit BME280 humidity, temperature & pressure sensor
+ *
+ * @section intro_sec Introduction
+ *
+ *  Driver for the BME280 humidity, temperature & pressure sensor
+ * 
+ * These sensors use I2C or SPI to communicate, 2 or 4 pins are required
+ * to interface.
+ *
+ * Designed specifically to work with the Adafruit BME280 Breakout
+ * ----> http://www.adafruit.com/products/2650
+ *    
+ *  Adafruit invests time and resources providing this open source code, 
+ *  please support Adafruit and open-source hardware by purchasing 
+ *  products from Adafruit!
+ *
+ * @section author Author
+ *
+ * Written by Kevin "KTOWN" Townsend for Adafruit Industries.
+ *
+ * @section license License
+ *
+ * BSD license, all text here must be included in any redistribution.
+ *
+ */
 #include "BME280.h"
 
 Adafruit_BME280 bme280 = Adafruit_BME280();
